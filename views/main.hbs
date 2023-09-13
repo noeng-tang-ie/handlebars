@@ -1,0 +1,10 @@
+{{>childA}}
+<h1>hello world!</h1>
+{{#if listExists}}
+<ul>
+    {{#each emp}}
+        <li>name : {{name}} , position : {{positions}}</li>
+    {{/each}}
+</ul>
+{{/if}}
+{{>childB}}
